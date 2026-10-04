@@ -8,25 +8,25 @@ cask "vrok" do
     end
   end
 
-  version "0.5.1"
+  version "0.5.2"
 
   on_macos do
     on_arm do
-      sha256 "e550615e9ed891f0ecf847067058d7957593bd13bdbc6a9d253c0fec0af5d159"
+      sha256 "63a6e6c2a3ce2a93d09a5b858c89c77afe7a9958563e81d5b7f54574671a7e47"
       url "https://github.com/AliJabbar034/vrok/releases/download/v#{version}/vrok_v#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "7b28366e29cc1a4e76f1eea35cef8eb0d69c0174fe70e31f15828599d06941be"
+      sha256 "9d9e28240d28fb6692492a6992a5bed0b3c586171ff877a63d9800cfcfbab282"
       url "https://github.com/AliJabbar034/vrok/releases/download/v#{version}/vrok_v#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "15388189112ad32f280e23b9347330db917a54b167f0139f7ba6d52fe533b33c"
+      sha256 "a566ccb3c92f6638628ce212e1c12e5f340c9c80df7ea9d12da8b8c2cf1f25ca"
       url "https://github.com/AliJabbar034/vrok/releases/download/v#{version}/vrok_v#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "7a76eba831949993863c7c6ebc9ee1668f8ab2796f5560b214906482004dafd5"
+      sha256 "183d191eca1adf1d64be87e5c6b78279f11493e2587d4143b398d44259a50d17"
       url "https://github.com/AliJabbar034/vrok/releases/download/v#{version}/vrok_v#{version}_linux_amd64.tar.gz"
     end
   end
